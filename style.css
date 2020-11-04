@@ -1,1 +1,52 @@
 .title {font-family: Roboto}
+body {
+	margin: 0;
+}
+.header {
+	margin: auto
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-section {
+	margin: auto;
+	width: 80;
+}
+.wrapper {
+	margin: auto;
+	width: 80%;
+}
+.menu {
+	align-items: center;
+	display: flex;
+}
+.menu__item {
+	padding: 0 13px;
+	padding-right: 0;
+}
+.logo {
+	padding: 40px 0;
+	font-family: pt_serif, arial, helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 31px;
+}
+.logo {
+	padding: 40px 0;
+	width: 190px;
+	height: 35px;
+	
+}
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	padding: 40px 0;
+	width: 190px;
+	height: 35px;
+	
+	background: url('img/logo.svg');
+}
+
