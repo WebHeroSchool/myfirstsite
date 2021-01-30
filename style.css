@@ -23,6 +23,7 @@ body {
 	padding: 40px 0;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 100px;
 }
 .logo {
 	//font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
@@ -84,6 +85,7 @@ body {
 .main-content{
 	padding-top: 100px;
 	width: 37%;
+	background: url('img/Frame.svg');
 }
 .main-content__title{
 	margin-bottom: 0 0 40px 0;
@@ -110,14 +112,20 @@ body {
 .main__button{
 	font: 14px/16px Roboto,arial,helvetica,sans-serif;
 }
-.main{;
+.main{
 	padding-right: 63%;
-	background: url('img/Group.svg');
+	background: url('img/Frame.svg');
 	background-repeat: no-repeat;
-	background-position: top-right;
+	background-position: 10% 10%;
 }
 .main{
 	padding-top: 100px;
 	padding-right: 63%;
-	background: url('img/Group.svg');
+	background: top right no-repeat url('img/Frame.svg');
+	background-position: 10% 10%;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
 }
