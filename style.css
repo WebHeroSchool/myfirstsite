@@ -23,6 +23,10 @@ body {
 	padding: 40px 0;
 	display: flex;
 	justify-content: space-between;
+ main
+	margin-bottom: 100px;
+
+ 3.Подключаемстилиишрифтыксайту
 }
 .logo {
 	//font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
@@ -34,8 +38,122 @@ body {
 	border: 1px red;
 	background: url('img/logo.svg');
 }
+main
+.menu__item{
+	position: relative;
+	margin-right: 26px;
+	padding: 0 13px;
+	font: 500 18px/21px Roboto,arial,helvetica,sans-serif;
+	color: #000;
+	text-decoration: none;
+	transition: opacity .5s;
+}
+.menu__item:last-child{
+	margin-right: 0;
+}
+.menu__item_active::after{
+	display: block;
+	content:'';
+	width: 100px;
+	height: 3px;
+	background: #0056EC;
+	position: absolute;
+}
+.menu__item:hover{
+	color: red;
+	opacity: 0.5;
+}
+.menu__item:hover:after{
+	position: absolute;
+	left: 0;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 3px;
+	background: #0056EC;
+}
+.menu__item:after{
+	position: absolute;
+	left: block;
+	content: '';
+	width: 0px;
+	height: 3px;
+	background: #0056EC;
+	opacity: 0;
+	transition: opacity .5s, width .5s;
+}
+.menu__item:hover:after, .menu__item_active:after{
+	opacity: 1;
+	width: 100;
+}
+.main-content{
+	padding-top: 100px;
+	background: url('img/Frame.svg');
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-size: contain;
+}
+.main-content__title{
+	margin-bottom: 0 0 40px 0;
+	font: bold 50px/65px pt_serif,arial,helvetica,sans-serif;
+	width: 40%;
+}
+.main-content__subtitle{
+	margin-top: 0 0 41px 0;
+	margin-top: 30px;
+	margin-bottom: 41;
+	font: 18px/21px Roboto,arial,helvetica,sans-serif;
+	width: 35%;
+}
+.main{
+	padding-top: 100px;
+	width: 40%;
+}
+.main__title{
+	margin: 0 0 40px 0;
+	font: bold 50px/65px pt_serif,aril,helvetica,sans-serif;
+}
+.main__subtitle{
+	margin: 0 0 41px 0;
+	font: 18px/21px Roboto,arial,helvetica,sans-serif;
+}
+.main__button{
+	font: 14px/16px Roboto,arial,helvetica,sans-serif;
+}
+.main{
+	padding-right: 63%;
+	background: url('img/Frame.svg');
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.main{
+	padding-top: 100px;
+	padding-right: 63%;
+	background: top right no-repeat url('img/Frame.svg');
+	background-position: top right;
+}
+
+.main {
+	padding: 0 63% 100px 0;
+	background: top right no-repeat url('img/Frame.svg');
+	
+}
+.main__title-text_highlight{
+	background: #ECF3FF;
+}
+.main__button{
+	display: inline-block;
+	font: 14px/16px Roboto,arial,heletica,sans-serif;
+	color: #fff;
+	background: #0056EC;
+	padding: 14px 16px;
+	text-decoration: none;
+	border-radius: 4px;
+}
 
 
 
 
 
+
+ 3.Подключаемстилиишрифтыксайту
