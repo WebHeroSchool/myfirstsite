@@ -23,10 +23,7 @@ body {
 	padding: 40px 0;
 	display: flex;
 	justify-content: space-between;
- main
 	margin-bottom: 100px;
-
- 3.Подключаемстилиишрифтыксайту
 }
 .logo {
 	//font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
@@ -38,7 +35,6 @@ body {
 	border: 1px red;
 	background: url('img/logo.svg');
 }
-main
 .menu__item{
 	position: relative;
 	margin-right: 26px;
@@ -136,7 +132,7 @@ main
 .main {
 	padding: 0 63% 100px 0;
 	background: top right no-repeat url('img/Frame.svg');
-
+	
 }
 .main__title-text_highlight{
 	background: #ECF3FF;
