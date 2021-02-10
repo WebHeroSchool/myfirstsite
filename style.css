@@ -134,7 +134,7 @@ body {
 	font: 23px/19px Roboto,arial,helvetica,sans-serif;
 	width: 32%;
 }
-.main{
+.main {
 	padding-top: 100px;
 	width: 40%;
 }
@@ -167,7 +167,7 @@ body {
 .main {
 	padding: 0 63% 100px 0;
 	background: top right no-repeat url('img/Frame.svg');
-	
+
 }
 .main__title-text_highlight{
 	background: #ECF3FF;
