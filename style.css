@@ -16,13 +16,13 @@ body {
 	padding: 40px 0;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 125px;
+	margin-bottom: 13px;
 }
 .logo..menu{
 	display: inline-block;
 }
 .logo {
-	//font: bold 32px/31px pt_serif, arial, helvetica, sans-serif;
+	font: bold 32px/31px pt_serif, arial, helvetica, sans-serif;
 	font-weight: bold;
 	width: 190px;
 	height: 35px;
@@ -116,23 +116,23 @@ body {
 	background-size: 49em;
 }
 .main-content{
-	padding-top: 100px;
+	padding-top: 129px;
 	background: url('img/Frame.svg');
 	background-repeat: no-repeat;
-	background-position: 100% 0;
+	background-position: 98% 122px;
 	background-size: contain;
 }
 .main-content__title{
 	margin-bottom: 0 0 40px 0;
-	font: bold 69px/107px pt_serif,arial,helvetica,sans-serif;
-	width: 40%;
+	font: bold 68px/92px pt_serif,arial,helvetica,sans-serif;
+	width: 35%;
 }
 .main-content__subtitle{
 	margin-top: 0 0 41px 0;
 	margin-top: 30px;
 	margin-bottom: 41;
-	font: 18px/21px Roboto,arial,helvetica,sans-serif;
-	width: 35%;
+	font: 23px/19px Roboto,arial,helvetica,sans-serif;
+	width: 32%;
 }
 .main{
 	padding-top: 100px;
