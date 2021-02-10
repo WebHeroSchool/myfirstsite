@@ -172,7 +172,7 @@ body {
 .main__title-text_highlight{
 	background: #ECF3FF;
 }
-.main__button{
+.main__button {
 	display: inline-block;
 	font: 500 18px/21px Roboto,arial,heletica,sans-serif;
 	color: #fff;
