@@ -138,7 +138,7 @@ body {
 	padding-top: 100px;
 	width: 40%;
 }
-.main__title{
+.main__title {
 	margin: 0 0 29px 0;
 	padding-top: 42px;
 	width: 567px;
@@ -167,7 +167,7 @@ body {
 .main {
 	padding: 0 63% 100px 0;
 	background: top right no-repeat url('img/Frame.svg');
-	
+
 }
 .main__title-text_highlight{
 	background: #ECF3FF;
